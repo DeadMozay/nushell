@@ -4419,9 +4419,9 @@ dependencies = [
 
 [[package]]
 name = "polars"
-version = "0.14.5"
+version = "0.14.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2f254b79757346a86a8371ea4a087ce6a56e604c82d61093a1b85bfd0df99aeb"
+checksum = "5c1bf71de63afed8a9262b61a2a7c3a463bf3b2b8dc28a91873621a86ddeb996"
 dependencies = [
  "polars-core",
  "polars-io",
@@ -4430,9 +4430,9 @@ dependencies = [
 
 [[package]]
 name = "polars-arrow"
-version = "0.14.5"
+version = "0.14.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ec1ef88e60b660c51644a5b098570519948d95f389b67ef690a0f1187395d7bf"
+checksum = "d1d436b455a6ac76f09b7b8127d2c4b21e80e8b7579218edee91ce138281d178"
 dependencies = [
  "arrow",
  "num 0.4.0",
@@ -4441,9 +4441,9 @@ dependencies = [
 
 [[package]]
 name = "polars-core"
-version = "0.14.5"
+version = "0.14.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9e5e6ee23eb50845501c8c31368051af75801185cf4bedf9e7b3ec945a49af9c"
+checksum = "f3e1a74ab0ddbb0cca4f9a79691cf419ec7af63fc1f72206fac6ab45508d6d85"
 dependencies = [
  "ahash",
  "anyhow",
@@ -4468,9 +4468,9 @@ dependencies = [
 
 [[package]]
 name = "polars-io"
-version = "0.14.5"
+version = "0.14.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "94e8719cdb70555e0492dd24e8f09f637cc112bac438be754bad8dca75f466ab"
+checksum = "54f37bf032736512cc938000e937175b3bbfc27ea72abd07fc03d25145d709a0"
 dependencies = [
  "ahash",
  "anyhow",
@@ -4492,9 +4492,9 @@ dependencies = [
 
 [[package]]
 name = "polars-lazy"
-version = "0.14.5"
+version = "0.14.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7ca6b2fb59bbe6725a84c48df12f509b4655d173cd113e5fb51f971cff1f93bc"
+checksum = "4c7f767d152af32f2880c02d0e4ead23d5591e066bf92af462ef9d1e4149e7af"
 dependencies = [
  "ahash",
  "itertools",
@@ -6860,18 +6860,18 @@ dependencies = [
 
 [[package]]
 name = "zstd"
-version = "0.9.0+zstd.1.5.0"
+version = "0.8.3+zstd.1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "07749a5dc2cb6b36661290245e350f15ec3bbb304e493db54a1d354480522ccd"
+checksum = "5ea7094c7b4a58fbd738eb0d4a2fc7684a0e6949a31597e074ffe20a07cbc2bf"
 dependencies = [
  "zstd-safe",
 ]
 
 [[package]]
 name = "zstd-safe"
-version = "4.1.1+zstd.1.5.0"
+version = "4.1.0+zstd.1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c91c90f2c593b003603e5e0493c837088df4469da25aafff8bce42ba48caf079"
+checksum = "d30375f78e185ca4c91930f42ea2c0162f9aa29737032501f93b79266d985ae7"
 dependencies = [
  "libc",
  "zstd-sys",
@@ -6879,9 +6879,9 @@ dependencies = [
 
 [[package]]
 name = "zstd-sys"
-version = "1.6.1+zstd.1.5.0"
+version = "1.6.0+zstd.1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "615120c7a2431d16cf1cf979e7fc31ba7a5b5e5707b29c8a99e5dbf8a8392a33"
+checksum = "2141bed8922b427761470e6bbfeff255da94fa20b0bbeab0d9297fcaf71e3aa7"
 dependencies = [
  "cc",
  "libc",
